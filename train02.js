@@ -57,7 +57,7 @@ each_cons([1,2,3,4], 3)
 
 //6
 // function countPositivesSumNegatives(input) {
-//     // your code here
+
 //   }
 
 
@@ -405,4 +405,18 @@ each_cons([1,2,3,4], 3)
 //     }
 //   }
 //   console.log(check(['Alex', 'Jacob', 'Mark']))
+
+(задача на lindkedList- решается вообще по другому)
+var mergeTwoLists = function(list1, list2) {
+let arr = []
+  for(let i =0;i<list1.length;i++){
+    arr.push(list1[i])
+  }
+  for(let k =0;k<list2.length;k++){
+    arr.push(list2[k])
+  }
+  return arr.sort()
+};
+
+console.log(mergeTwoLists([],[0]))
   
