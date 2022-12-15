@@ -1,9 +1,4 @@
 
-//ЧТО НЕ ПОЛУЧИЛОСЬ :
-// https://www.codewars.com/kata/563cf89eb4747c5fb100001b
-
-
-
 
 // codewars 1.
 //создать каскад each_cons где есть массив 
