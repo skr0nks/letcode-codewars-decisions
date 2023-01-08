@@ -465,3 +465,16 @@ switch(n){
     return 'Ten'
 }
 }
+
+// задача - посчитать онли согласные
+// function consonantCount(str) {
+//   let arr = [];
+//   let vocals = "bcdfghjklmnpqrstvwxzy";
+//   for (let i = 0; i < str.length; i++) {
+//     if(vocals.includes(str[i].toLowerCase())) {
+//       arr.push(str[i]);
+//     }
+//   }
+//   console.log(arr);
+//   return arr.length;
+// }
